@@ -12,6 +12,8 @@
 		8E07A9B723B20F3000553E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E07A9B523B20F3000553E8D /* Main.storyboard */; };
 		8E07A9B923B20F3000553E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E07A9B823B20F3000553E8D /* Assets.xcassets */; };
 		8E07A9BC23B20F3000553E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E07A9BA23B20F3000553E8D /* LaunchScreen.storyboard */; };
+		8E07A9C423B2105100553E8D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E07A9C323B2105100553E8D /* TableViewCell.swift */; };
+		8E07A9C623B2131F00553E8D /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E07A9C523B2131F00553E8D /* ViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8E07A9B823B20F3000553E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E07A9BB23B20F3000553E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E07A9BD23B20F3000553E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E07A9C323B2105100553E8D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8E07A9C523B2131F00553E8D /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8E07A9B823B20F3000553E8D /* Assets.xcassets */,
 				8E07A9BA23B20F3000553E8D /* LaunchScreen.storyboard */,
 				8E07A9BD23B20F3000553E8D /* Info.plist */,
+				8E07A9C323B2105100553E8D /* TableViewCell.swift */,
+				8E07A9C523B2131F00553E8D /* ViewController1.swift */,
 			);
 			path = Daivattableview;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E07A9C623B2131F00553E8D /* ViewController1.swift in Sources */,
+				8E07A9C423B2105100553E8D /* TableViewCell.swift in Sources */,
 				8E07A9B423B20F3000553E8D /* ViewController.swift in Sources */,
 				8E07A9B223B20F3000553E8D /* AppDelegate.swift in Sources */,
 			);
